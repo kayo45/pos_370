@@ -371,7 +371,7 @@ CREATE TABLE `dso_alerts` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- INSERT INTO dso_alerts VALUES("1","[{"name":"Baby doll","code":"31261512"}]","1","2022-05-28 11:27:46","2022-05-28 11:27:46");
+INSERT INTO dso_alerts VALUES("1","[{"name":"Baby doll","code":"31261512"}]","1","2022-05-28 11:27:46","2022-05-28 11:27:46");
 
 
 
@@ -737,8 +737,8 @@ CREATE TABLE `notifications` (
   KEY `notifications_notifiable_type_notifiable_id_index` (`notifiable_type`,`notifiable_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- INSERT INTO notifications VALUES("d0623880-4199-459c-af55-3bc1464cbe71","App\Notifications\SendNotification","App\User","9","{"sender_id":"1","receiver_id":"9","document_name":"20220523012859.jpg","message":"hjhjhh"}","2022-05-23 15:50:47","2022-05-23 13:29:00","2022-05-23 15:50:47");
--- INSERT INTO notifications VALUES("ea3e6ccc-a25a-44b7-8e43-b0ab09204ee6","App\Notifications\SendNotification","App\User","9","{"sender_id":"1","receiver_id":"9","document_name":null,"message":"hello"}","2022-05-23 16:24:31","2022-05-23 16:24:06","2022-05-23 16:24:31");
+INSERT INTO notifications VALUES("d0623880-4199-459c-af55-3bc1464cbe71","App\Notifications\SendNotification","App\User","9","{"sender_id":"1","receiver_id":"9","document_name":"20220523012859.jpg","message":"hjhjhh"}","2022-05-23 15:50:47","2022-05-23 13:29:00","2022-05-23 15:50:47");
+INSERT INTO notifications VALUES("ea3e6ccc-a25a-44b7-8e43-b0ab09204ee6","App\Notifications\SendNotification","App\User","9","{"sender_id":"1","receiver_id":"9","document_name":null,"message":"hello"}","2022-05-23 16:24:31","2022-05-23 16:24:06","2022-05-23 16:24:31");
 
 
 
